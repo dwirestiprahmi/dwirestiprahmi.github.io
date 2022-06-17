@@ -356,7 +356,7 @@ section .title::after{
 .skills .skills-content .right .line{
   height: 5px;
   width: 100%;
-  background: lightgrey;
+  background: rgb(121, 7, 30);
   position: relative;
 }
 
@@ -369,7 +369,7 @@ section .title::after{
   background: rgb(121, 7, 30);
 }
 
-.skills .skills-content .right .html::before{
+/* .skills .skills-content .right .html::before{
   width: 90%;
 }
 .skills .skills-content .right .css::before{
@@ -383,7 +383,7 @@ section .title::after{
 }
 .skills .skills-content .right .mysql::before{
   width: 40%;
-}
+} */
 
 /* qualification section styling */
 .qualification .title::after{
