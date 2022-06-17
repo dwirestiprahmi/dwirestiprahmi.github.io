@@ -360,14 +360,14 @@ section .title::after{
   position: relative;
 }
 
-.skills .skills-content .right .line::before{
+/* .skills .skills-content .right .line::before{
   content: "";
   position: absolute;
   height: 100%;
   left: 0;
   top: 0;
   background: rgb(121, 7, 30);
-}
+} */
 
 /* .skills .skills-content .right .html::before{
   width: 90%;
