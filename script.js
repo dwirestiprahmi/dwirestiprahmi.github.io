@@ -22,7 +22,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["an Informatic Student", "a Software Developer, a Frontend Developer"],
+        strings: ["an Informatic Student", "a Software Developer", "a Frontend Developer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
