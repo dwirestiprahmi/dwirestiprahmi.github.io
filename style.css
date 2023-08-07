@@ -72,15 +72,23 @@ html{
 }
 
 .navbar.sticky .menu li a:hover{
-  color: white;
+  color: black;
+}
+
+.navbar.sticky .menu li a:focus {
+  color: black;
 }
 
 /* menu button styling */
 .menu-btn{
-  color: #fff;
+  color: black;
   font-size: 23px;
   cursor: pointer;
   display: none;
+}
+
+.menu-btn:active{
+  color: black;
 }
 .scroll-up-btn{
   position: fixed;
@@ -161,7 +169,7 @@ html{
 section{
   padding: 100px 0;
 }
-.about, .services, .skills, .qualification, .contact, footer{
+.about, .services, .skills, .qualification, .work, .contact, footer{
 font-family: 'Roboto Mono', sans-serif;
 }
 .about .about-content,
@@ -209,6 +217,9 @@ section .title::after{
   padding: 2rem 0 4rem;
 }
 /* about section styling */
+.about{
+  padding: 130px 0px;
+}
 
 .about .title::after{
   content: "who i am";
@@ -303,6 +314,7 @@ section .title::after{
 .skills{
     color: #fff;
     background: #111;
+    padding: 130px 0px;
 }
 .skills .title::after{
   content: "what i know";
@@ -387,6 +399,10 @@ section .title::after{
 } */
 
 /* qualification section styling */
+
+.qualification{
+  padding: 130px 0px;
+}
 .qualification .title::after{
   content: "Life Journey";
 }
@@ -530,6 +546,59 @@ section .title::after{
     padding: 30px 30px 30px 90px;
     border-radius: 500px 0 0 500px;
   }
+}
+
+/* work section styling */
+
+.work{
+  padding: 130px 0px;
+}
+
+.work .title::before{
+      content: "";
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      width: 250px;
+      height: 3px;
+      background: #111;
+      transform: translateX(-50%);
+}
+
+.work .title::after{
+  content: "working experiences";
+}
+
+.work_timeline {
+  position: relative;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* .work_timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+} */
+
+.wcontainer{
+    margin-left: 25%;
+      background-color: inherit;
+      width: 50%;
+}
+
+.working_data {
+  padding: 20px 40px;
+  position: relative;
+  border: 4px solid rgb(121, 7, 30);
+  border-radius: 5px;
+  text-align: center;
 }
 
 /* contact section styling */
@@ -688,7 +757,7 @@ footer .footer_background .footer_copy{
 }
 
 /* responsive media query start */
-@media (max-width: 947px){
+@media (max-width: 1280px){
   .max-width{
     padding: 0 50px;
   }
