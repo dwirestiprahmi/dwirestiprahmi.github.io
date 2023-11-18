@@ -403,8 +403,19 @@ section .title::after{
 .qualification{
   padding: 130px 0px;
 }
+
+.qualification .title::before {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 250px;
+  height: 3px;
+  background: #111;
+  transform: translateX(-50%);
+}
+
 .qualification .title::after{
-  content: "Life Journey";
+  content: "Education Journey";
 }
 
 .qualification_icon{
